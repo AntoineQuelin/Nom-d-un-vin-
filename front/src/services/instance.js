@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const apiInstance = axios.create({
-    baseURL: 'http://antoinequelin-server.eddi.cloud:8080'
+    baseURL: 'http://vps-0fbb8a71.vps.ovh.net:8080'
   });
 
   //Handle setting token JWT in request header
