@@ -31,7 +31,7 @@ const userController = {
 			});
 
 			if(searchedUser){
-				throw new Error('Le compte existe déjà'); 
+				throw new Error('Signup does not work, invalid email or password'); 
 			}
             
 			//2. Check that the email format is valid with email-validator

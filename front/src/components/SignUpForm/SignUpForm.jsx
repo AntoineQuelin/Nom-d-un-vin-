@@ -97,7 +97,7 @@ function SignUpForm() {
       handleScroll(title);
     } catch (error) {
       if(error.response.data.message){
-        setSignupError(error.response.data.message)
+        setSignupError('Le compte existe déjà')
       }
       
     }
